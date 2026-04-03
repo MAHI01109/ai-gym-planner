@@ -56,7 +56,6 @@ export function WorkoutForm() {
             })
 
             const data = await res.json()
-            
             const workout = JSON.parse(data.workout)
             console.log(data.workout)
 

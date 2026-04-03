@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Dumbbell } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ModeToggle } from "@/components/ui/theme-toggle";
 
 export default function Navbar() {
     return (
@@ -18,6 +19,7 @@ export default function Navbar() {
 
                 {/* Actions */}
                 <div className="flex items-center gap-4">
+                    <ModeToggle />
                     <Button variant="ghost">
                         Login
                     </Button>
